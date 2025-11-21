@@ -1,0 +1,22 @@
+# Core data libs
+pandas>=2.0.0
+numpy>=1.23.0
+
+# Parquet support for saving/loading preprocessed features
+pyarrow>=12.0.0
+
+# Streamlit app for interactive recommendations
+streamlit>=1.27.0
+
+# Plotting libraries for EDA and visuals
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# NLP libraries for mood classification (Sentence-BERT + Zero-Shot Classification)
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# PyTorch (CPU version for deployment - lighter weight)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
